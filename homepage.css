@@ -1,0 +1,65 @@
+body {
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+p {
+    font-family: 'Lora', serif;
+   }
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+   }
+
+.profilepic{  
+    height: 400px;
+    width: 300px;
+    margin-top: -120px;
+    margin-bottom: 200px;
+    box-shadow: 40px 50px 0px 30px darkred;
+  } 
+
+/*profile*/
+/* .profile{
+    height: auto;
+    background-color: rgb(170, 170, 170);
+    margin-top: 100px;
+  }
+  
+  .profile .margin{
+     margin-top: 90px;
+  }
+  
+  .profile h1{
+    font-size: 24px;
+    color: #323232;
+  }
+
+  .profile p{
+      font-size: 20px;
+  }
+  
+  h1, p{
+      padding: 20px;
+      margin-bottom: -20px;
+  }
+  .profile img{
+    position: relative;  
+    margin-left: 600px;
+    height: 400px;
+    width: 300px;
+    box-shadow: 40px 50px 0px 30px darkred;
+  } */
+  
+  /*portfolio*/
+  .portfolio{
+    height: 100px !important;
+    background-color: rgb(238, 238, 238);
+  }
+  
+  .portfolio h1{
+    text-align: center;
+    padding: 30px;
+    text-transform: uppercase;
+  }
