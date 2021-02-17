@@ -26,12 +26,14 @@ h1 {
     margin-top: 50px;
 }   
 .profilepic {  
-    height: 300px;
-    width: 230px;
+    height: 400px;
+    width: 300px;
     margin-top: -120px;
     margin-bottom: 100px;
-    box-shadow: 30px 40px 0px 10px #ddaf94;
+    box-shadow: 120px -100px 0px 100px #ddaf94;
   } 
+
+
 
 /*profile*/
 /* .profile{
