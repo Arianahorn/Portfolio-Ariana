@@ -1,6 +1,14 @@
 body {
     margin-left: 125px;
     margin-right: 125px;
+    font-family: 'Montserrat', sans-serif;
+    /* background-image: url("Images/profilepic.jpeg"); */
+    background-color: #FDF8F5;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: scroll;
+    background-size: cover;
+  
 }
 
 p {
@@ -14,15 +22,15 @@ h1, h2 {
    }
 
 h1 {
-    padding: 20px;
+    padding: 30px;
     margin-top: 50px;
 }   
 .profilepic {  
     height: 300px;
-    width: 210px;
+    width: 230px;
     margin-top: -120px;
     margin-bottom: 100px;
-    box-shadow: 30px 40px 0px 10px darkred;
+    box-shadow: 30px 40px 0px 10px #ddaf94;
   } 
 
 /*profile*/
@@ -60,7 +68,8 @@ h1 {
   /*portfolio*/
   .portfolio{
     height: 100px !important;
-    background-color: rgb(238, 238, 238);
+    background-color: #4f4846;
+    color: #FDF8F5;
   }
   
   .portfolio h2{
@@ -68,3 +77,52 @@ h1 {
     padding: 30px;
     text-transform: uppercase;
   }
+/*Portfolio*/
+.portfolio{
+    margin: 4em 0;
+    position: relative; 
+   }
+   .portfolio h2{
+    margin: 2em; 
+   }
+   .portfolio img{
+     height: 15rem;
+     width: 100%;
+     margin: 20px;
+     margin-left: 1px;
+   }
+  /* skills */
+
+  .row-container {
+    padding: 0 40px;
+    display: flex;
+    flex-basis: 345px;
+    gap: 15px;
+    justify-content: space-around;
+  }
+  .flex-container {
+    display: flex;
+    padding: 50px;
+    text-align: center;
+    gap: 5%;
+    max-width: 100vw !important;
+  }
+  .flex-container > div {
+    /* background-color: #f1f1f1; */
+    /* margin: 30px; */
+    margin-top: 0;
+    padding: 10px;
+    text-align: center;
+  } 
+  
+  .flex-container img {
+    min-width: 120px;
+  }
+
+  /* portfolio cards */
+
+.img-fluid:hover {
+    -webkit-box-shadow: -1px 9px 40px #323232;
+    -moz-box-shadow: -1px 9px 40px -12px #323232;
+    box-shadow: -1px 9px 40px -12px #323232;
+}  

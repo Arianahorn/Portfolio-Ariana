@@ -4,6 +4,9 @@
     box-sizing: border-box;
   }
 
+
+
+
   
   nav {
     display: flex;
@@ -25,7 +28,7 @@
     position: absolute;
     text-align: center;
     color: rgb(31, 31, 31);
-    background-color: rgb(219, 161, 54);
+    background-color: #E8CEBF;
     padding: 5px;
     border-radius: 0px 0px 6px 6px;
   }
@@ -48,11 +51,11 @@
   }
   
  .nav-links li :hover{
-     color: red;
+     color: #266150;
  }
 
   .nav-links li :active {
-      color: red;
+      color: #266150;
       font-weight: 800;
   }
   .nav-links li {
