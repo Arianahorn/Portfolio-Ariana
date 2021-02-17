@@ -5,19 +5,24 @@ body {
 
 p {
     font-family: 'Lora', serif;
+    padding: 10PX;
    }
 
-h1 {
+h1, h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
    }
 
-.profilepic{  
-    height: 400px;
-    width: 300px;
+h1 {
+    padding: 20px;
+    margin-top: 50px;
+}   
+.profilepic {  
+    height: 300px;
+    width: 210px;
     margin-top: -120px;
-    margin-bottom: 200px;
-    box-shadow: 40px 50px 0px 30px darkred;
+    margin-bottom: 100px;
+    box-shadow: 30px 40px 0px 10px darkred;
   } 
 
 /*profile*/
@@ -58,7 +63,7 @@ h1 {
     background-color: rgb(238, 238, 238);
   }
   
-  .portfolio h1{
+  .portfolio h2{
     text-align: center;
     padding: 30px;
     text-transform: uppercase;
