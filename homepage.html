@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- scroll up -->
+ 
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    <link href="homepage.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+    <link href="homepage.css" rel="stylesheet">
     <title>homepage</title>
 </head>
 <body>
@@ -55,31 +58,40 @@
 <div class="container">
  <div class="row">
   <div class="col-lg-4 col-md-4 col-sm-12">
-   <img src="#" class="img-fluid">
+    <a href="#">
+   <img src="#" class="img-fluid"></a>
   </div>
   <div class="col-lg-4 col-md-4 col-sm-12">
+    <a href="#">
    <img src="images/portfolio/port1.png" class="img-fluid">
   </div>
   <div class="col-lg-4 col-md-4 col-sm-12">
-   <img src="images/portfolio/port6.png" class="img-fluid">
+    <a href="#">
+   <img src="images/portfolio/port6.png" class="img-fluid"></a>
   </div>
 <div class="col-lg-4 col-md-4 col-sm-12">
-   <img src="images/portfolio/port3.png" class="img-fluid">
+    <a href="#">
+   <img src="images/portfolio/port3.png" class="img-fluid"></a>
   </div>
   <div class="col-lg-4 col-md-4 col-sm-12">
-   <img src="images/portfolio/port11.png" class="img-fluid">
+    <a href="#">
+   <img src="images/portfolio/port11.png" class="img-fluid"></a>
   </div>
   <div class="col-lg-4 col-md-4 col-sm-12">
-   <img src="images/portfolio/electric.png" class="img-fluid">
+    <a href="#">
+   <img src="images/portfolio/electric.png" class="img-fluid"></a>
   </div>
 <div class="col-lg-4 col-md-4 col-sm-12">
-   <img src="images/portfolio/Classic.jpg" class="img-fluid">
+    <a href="#">
+   <img src="images/portfolio/Classic.jpg" class="img-fluid"></a>
   </div>
   <div class="col-lg-4 col-md-4 col-sm-12">
-   <img src="images/portfolio/port1.png" class="img-fluid">
+    <a href="#">
+   <img src="images/portfolio/port1.png" class="img-fluid"></a>
   </div>
   <div class="col-lg-4 col-md-4 col-sm-12">
-   <img src="images/portfolio/port8.png" class="img-fluid">
+      <a href="#">
+   <img src="images/portfolio/port8.png" class="img-fluid"></a>
   </div>
  </div>
 </div>
@@ -88,5 +100,25 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- scroll up -->
+<a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+<script>
+    $(document).ready(function(){
+	$(window).scroll(function () {
+			if ($(this).scrollTop() > 50) {
+				$('#back-to-top').fadeIn();
+			} else {
+				$('#back-to-top').fadeOut();
+			}
+		});
+		// scroll body to 0px on click
+		$('#back-to-top').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 400);
+			return false;
+		});
+});
+</script>
 </body>
 </html>

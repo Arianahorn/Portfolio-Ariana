@@ -126,3 +126,13 @@ h1 {
     -moz-box-shadow: -1px 9px 40px -12px #323232;
     box-shadow: -1px 9px 40px -12px #323232;
 }  
+
+/* scroll button */
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    color: #323232;
+}
